@@ -1,0 +1,28 @@
+{
+  "name": "nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuedePritch/ERC721.git"
+  },
+  "author": "James Pritchard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuedePritch/ERC721/issues"
+  },
+  "homepage": "https://github.com/SuedePritch/ERC721#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
